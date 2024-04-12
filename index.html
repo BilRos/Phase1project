@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index BestEats</title>
+    <link href="index.css" type="text/css" rel="stylesheet"/>
+    <script src="index.js" async></script>
+</head>
+<body>
+    <header>
+    <div id="menuHeader">
+
+        <div id="heading">
+             <h1>BESTEATS</h1>
+        </div>
+
+  </div>
+  </div>
+</header>
+<!--
+<div class = "container">
+    <div class = "wrapper">
+        <div class="wrapper-holder">
+            <div id="slider-img-1"></div>
+            <div id="slider-img-2"></div>
+            <div id="slider-img-3"></div>
+            <div id="slider-img-4"></div>
+            <div id="slider-img-5"></div>
+            <div id="slider-img-6"></div>
+        </div>
+    </div>
+    <div class="button-holder">
+        <a href="Assets/green-salad-500x375.jpg" class="button"></a>
+        <a href="#slider-img-2" class="button"></a>
+        <a href="#slider-img-3" class="button"></a>
+        <a href="#slider-img-4" class="button"></a>
+        <a href="#slider-img-5" class="button"></a>
+        <a href="#slider-img-6" class="button"></a>
+
+    </div>
+</div>
+-->
+
+<main>
+    <section class="container content-section">
+        <h2 class="section-header">MEALS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Eggs with Bacon,Pancakes and Sausage</span>
+                <img class="shop-item-image" src="Assets/eggBaconPancakesSausage1.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Corn Rice</span>
+                <img class="shop-item-image" src="Assets/corn-rice.jpg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Healthy Meal</span>
+                <img class="shop-item-image" src="Assets/healthyMeal1.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$19.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Special Chicken</span>
+                <img class="shop-item-image" src="Assets/specialChicken.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$59.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">DRINKS</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Fresh Juice</span>
+                <img class="shop-item-image" src="Assets/juices1.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$5.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Coffee</span>
+                <img class="shop-item-image" src="Assets/coffee.jpeg">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">$6.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="Assets/juices1.jpeg" width="100" height="100">
+                    <span class="cart-item-title">Fresh Juice</span>
+                </div>
+                <span class="cart-price cart-column">$5.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="Assets/healthyMeal1.jpeg" width="100" height="100">
+                    <span class="cart-item-title">Healthy Meal</span>
+                </div>
+                <span class="cart-price cart-column">$19.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" type="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"></span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+<div id="location">
+    <div>
+        <table>
+        <tr><th><h1>SHARE YOUR LOCATION</h1></th></tr>
+        
+            <tr><td>This map will help us locate you and deliver your meal.</td> </tr>
+            
+           
+             <tr>
+               <td>
+                  <img src="Assets/Google-Maps-Traffic2.jpg" 
+                       alt="Map"
+                       title="Area map"
+                       width="1280"
+                       height="800"
+                         />
+              </td>
+             </tr>
+                       
+        </table>
+   </div>
+</div>
+
+<div id="about">
+<h1>About us</h1>
+<p>We are a 5 star hotel recently opened in Nairobi. We have internatinal chefs with us ready to prepare any meal at your request.</p>
+    <br>
+<h2>Our location</h2>
+<p>We are located in the Central business District Nairobi.</p>
+<p>You can find us opposite Hilton hotel.</p>
+<br>
+<h2>Our Menu</h2>
+<p>We have a menu with starter dishes which are prepared using our secret recipe .</p>
+<br>
+<h2>How to Order</h2>
+<p>Choose your meal and select your location using the map so that we can deliver it to you within the hour</p>
+<br>
+<p>Get to dine with us and be sure you'll be back.</p>
+</div>
+
+</main>
+
+
+<footer>
+    <div id="menuFooter">
+
+    <!-- Add follow us on ig,fb,x, youtube...include logos -->
+    
+        <h2>Get To Follow Us On:</h2>
+
+         <div id="social_images">
+              <img class="follow" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="Instagram" >
+              <img class="follow" src="https://www.shutterstock.com/image-vector/pakistan-07-30-2023-new-260nw-2340851903.jpg" alt="X" >
+              <img class="follow" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="Facebook" >
+              <img class="follow" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Youtube_colored_svg-128.png" alt="Youtube" >
+
+        </div>
+        
+    </div>
+
+</footer>
+
+</body>
+</html>
